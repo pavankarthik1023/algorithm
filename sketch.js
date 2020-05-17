@@ -6,12 +6,12 @@ function setup() {
   createCanvas(1600,400);
   
 
-  speed=random(55,90);
+  speed=random(50,150);
   weight=random(400,1500);
 
   car=createSprite(50,200,50,50);
   wall=createSprite(350,200,60,200);
-  deformation=0.5*weight*speed*speed/22509;
+  deformation=0.5*weight*speed*speed/22500;
 }
 
 function draw() {
